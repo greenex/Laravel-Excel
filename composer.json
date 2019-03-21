@@ -49,7 +49,7 @@
         "greenex\\Excel\\ExcelServiceProvider"
       ],
       "aliases": {
-        "Excel": "greenex\\Excel\\Facades\\Excel"
+        "Excel2": "greenex\\Excel\\Facades\\Excel"
       }
     }
   },
