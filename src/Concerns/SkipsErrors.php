@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace greenex\Excel\Concerns;
 
 use Throwable;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Validators\Failure;
+use greenex\Excel\Validators\Failure;
 
 trait SkipsErrors
 {

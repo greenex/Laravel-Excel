@@ -1,22 +1,22 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace greenex\Excel;
 
 use Traversable;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Jobs\CloseSheet;
-use Maatwebsite\Excel\Jobs\QueueExport;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Jobs\SerializedQuery;
-use Maatwebsite\Excel\Jobs\AppendDataToSheet;
-use Maatwebsite\Excel\Jobs\StoreQueuedExport;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Jobs\AppendQueryToSheet;
-use Maatwebsite\Excel\Files\TemporaryFileFactory;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Concerns\WithCustomChunkSize;
-use Maatwebsite\Excel\Concerns\WithCustomQuerySize;
+use greenex\Excel\Jobs\CloseSheet;
+use greenex\Excel\Jobs\QueueExport;
+use greenex\Excel\Concerns\FromQuery;
+use greenex\Excel\Files\TemporaryFile;
+use greenex\Excel\Jobs\SerializedQuery;
+use greenex\Excel\Jobs\AppendDataToSheet;
+use greenex\Excel\Jobs\StoreQueuedExport;
+use greenex\Excel\Concerns\FromCollection;
+use greenex\Excel\Jobs\AppendQueryToSheet;
+use greenex\Excel\Files\TemporaryFileFactory;
+use greenex\Excel\Concerns\WithMultipleSheets;
+use greenex\Excel\Concerns\WithCustomChunkSize;
+use greenex\Excel\Concerns\WithCustomQuerySize;
 
 class QueuedWriter
 {

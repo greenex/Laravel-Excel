@@ -1,14 +1,14 @@
 <?php
 
-namespace Maatwebsite\Excel\Imports;
+namespace greenex\Excel\Imports;
 
-use Maatwebsite\Excel\Row;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Concerns\WithProgressBar;
-use Maatwebsite\Excel\Concerns\WithBatchInserts;
+use greenex\Excel\Row;
+use greenex\Excel\Concerns\ToModel;
+use greenex\Excel\Concerns\WithMapping;
+use greenex\Excel\Concerns\WithProgressBar;
+use greenex\Excel\Concerns\WithBatchInserts;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
-use Maatwebsite\Excel\Concerns\WithCalculatedFormulas;
+use greenex\Excel\Concerns\WithCalculatedFormulas;
 
 class ModelImporter
 {

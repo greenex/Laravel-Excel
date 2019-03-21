@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace greenex\Excel;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Files\Filesystem;
-use Maatwebsite\Excel\Files\TemporaryFile;
+use greenex\Excel\Files\Filesystem;
+use greenex\Excel\Files\TemporaryFile;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\PendingDispatch;
-use Maatwebsite\Excel\Helpers\FileTypeDetector;
+use greenex\Excel\Helpers\FileTypeDetector;
 
 class Excel implements Exporter, Importer
 {

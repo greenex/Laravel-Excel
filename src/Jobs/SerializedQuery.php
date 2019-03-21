@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace greenex\Excel\Jobs;
 
 use Closure;
 use Illuminate\Support\Facades\DB;

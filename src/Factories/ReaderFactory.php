@@ -1,15 +1,15 @@
 <?php
 
-namespace Maatwebsite\Excel\Factories;
+namespace greenex\Excel\Factories;
 
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Reader\Csv;
-use Maatwebsite\Excel\Files\TemporaryFile;
+use greenex\Excel\Files\TemporaryFile;
 use PhpOffice\PhpSpreadsheet\Reader\IReader;
 use PhpOffice\PhpSpreadsheet\Reader\Exception;
-use Maatwebsite\Excel\Concerns\MapsCsvSettings;
-use Maatwebsite\Excel\Concerns\WithCustomCsvSettings;
-use Maatwebsite\Excel\Exceptions\NoTypeDetectedException;
+use greenex\Excel\Concerns\MapsCsvSettings;
+use greenex\Excel\Concerns\WithCustomCsvSettings;
+use greenex\Excel\Exceptions\NoTypeDetectedException;
 
 class ReaderFactory
 {

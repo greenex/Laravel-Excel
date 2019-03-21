@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace greenex\Excel\Jobs;
 
 use Illuminate\Bus\Queueable;
-use Maatwebsite\Excel\Files\Filesystem;
-use Maatwebsite\Excel\Files\TemporaryFile;
+use greenex\Excel\Files\Filesystem;
+use greenex\Excel\Files\TemporaryFile;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
 class StoreQueuedExport implements ShouldQueue

@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace greenex\Excel\Tests\Data\Stubs;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Concerns\FromCollection;
+use greenex\Excel\Concerns\Exportable;
+use greenex\Excel\Concerns\WithMapping;
+use greenex\Excel\Concerns\FromCollection;
 
 class WithMappingExport implements FromCollection, WithMapping
 {

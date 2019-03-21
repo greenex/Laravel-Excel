@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Files;
+namespace greenex\Excel\Files;
 
 use Illuminate\Support\Str;
 

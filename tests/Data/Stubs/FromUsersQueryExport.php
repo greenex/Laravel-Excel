@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace greenex\Excel\Tests\Data\Stubs;
 
 use Illuminate\Database\Query\Builder;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithCustomChunkSize;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use greenex\Excel\Concerns\FromQuery;
+use greenex\Excel\Concerns\Exportable;
+use greenex\Excel\Concerns\WithCustomChunkSize;
+use greenex\Excel\Tests\Data\Stubs\Database\User;
 
 class FromUsersQueryExport implements FromQuery, WithCustomChunkSize
 {

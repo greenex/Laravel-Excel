@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithHeadings;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\WithCustomStartCell;
+use greenex\Excel\Tests\TestCase;
+use greenex\Excel\Concerns\Exportable;
+use greenex\Excel\Concerns\WithHeadings;
+use greenex\Excel\Concerns\FromCollection;
+use greenex\Excel\Concerns\WithCustomStartCell;
 
 class WithHeadingsTest extends TestCase
 {

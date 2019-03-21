@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Helpers;
+namespace greenex\Excel\Helpers;
 
 use Symfony\Component\HttpFoundation\File\UploadedFile;
-use Maatwebsite\Excel\Exceptions\NoTypeDetectedException;
+use greenex\Excel\Exceptions\NoTypeDetectedException;
 
 class FileTypeDetector
 {

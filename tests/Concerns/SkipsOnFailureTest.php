@@ -1,19 +1,19 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
 use PHPUnit\Framework\Assert;
 use Illuminate\Validation\Rule;
-use Maatwebsite\Excel\Tests\TestCase;
+use greenex\Excel\Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Validators\Failure;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\SkipsFailures;
-use Maatwebsite\Excel\Concerns\SkipsOnFailure;
-use Maatwebsite\Excel\Concerns\WithValidation;
-use Maatwebsite\Excel\Concerns\WithBatchInserts;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use greenex\Excel\Concerns\ToModel;
+use greenex\Excel\Validators\Failure;
+use greenex\Excel\Concerns\Importable;
+use greenex\Excel\Concerns\SkipsFailures;
+use greenex\Excel\Concerns\SkipsOnFailure;
+use greenex\Excel\Concerns\WithValidation;
+use greenex\Excel\Concerns\WithBatchInserts;
+use greenex\Excel\Tests\Data\Stubs\Database\User;
 
 class SkipsOnFailureTest extends TestCase
 {

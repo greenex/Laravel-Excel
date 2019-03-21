@@ -1,18 +1,18 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace greenex\Excel;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
-use Maatwebsite\Excel\Files\Filesystem;
-use Maatwebsite\Excel\Mixins\StoreCollection;
-use Maatwebsite\Excel\Console\ExportMakeCommand;
-use Maatwebsite\Excel\Console\ImportMakeCommand;
-use Maatwebsite\Excel\Mixins\DownloadCollection;
-use Maatwebsite\Excel\Files\TemporaryFileFactory;
+use greenex\Excel\Files\Filesystem;
+use greenex\Excel\Mixins\StoreCollection;
+use greenex\Excel\Console\ExportMakeCommand;
+use greenex\Excel\Console\ImportMakeCommand;
+use greenex\Excel\Mixins\DownloadCollection;
+use greenex\Excel\Files\TemporaryFileFactory;
 use Laravel\Lumen\Application as LumenApplication;
-use Maatwebsite\Excel\Transactions\TransactionHandler;
-use Maatwebsite\Excel\Transactions\TransactionManager;
+use greenex\Excel\Transactions\TransactionHandler;
+use greenex\Excel\Transactions\TransactionManager;
 
 class ExcelServiceProvider extends ServiceProvider
 {

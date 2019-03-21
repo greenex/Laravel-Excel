@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Transactions;
+namespace greenex\Excel\Transactions;
 
 interface TransactionHandler
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Mixins;
+namespace greenex\Excel\Mixins;
 
-use Maatwebsite\Excel\Sheet;
+use greenex\Excel\Sheet;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\Exportable;
+use greenex\Excel\Concerns\Exportable;
 use Illuminate\Contracts\Support\Arrayable;
-use Maatwebsite\Excel\Concerns\WithHeadings;
-use Maatwebsite\Excel\Concerns\FromCollection;
+use greenex\Excel\Concerns\WithHeadings;
+use greenex\Excel\Concerns\FromCollection;
 
 class DownloadCollection
 {

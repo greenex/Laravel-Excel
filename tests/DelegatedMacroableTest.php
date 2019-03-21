@@ -1,15 +1,15 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace greenex\Excel\Tests;
 
-use Maatwebsite\Excel\Sheet;
-use Maatwebsite\Excel\Writer;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\BeforeExport;
+use greenex\Excel\Sheet;
+use greenex\Excel\Writer;
+use greenex\Excel\Events\BeforeSheet;
+use greenex\Excel\Concerns\Exportable;
+use greenex\Excel\Concerns\WithEvents;
+use greenex\Excel\Events\BeforeExport;
 use PhpOffice\PhpSpreadsheet\Document\Properties;
-use Maatwebsite\Excel\Concerns\RegistersEventListeners;
+use greenex\Excel\Concerns\RegistersEventListeners;
 
 class DelegatedMacroableTest extends TestCase
 {

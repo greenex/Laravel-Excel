@@ -1,17 +1,17 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace greenex\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Writer;
+use greenex\Excel\Writer;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\WithTitle;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\BeforeWriting;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\ShouldAutoSize;
-use Maatwebsite\Excel\Concerns\RegistersEventListeners;
+use greenex\Excel\Tests\TestCase;
+use greenex\Excel\Concerns\WithTitle;
+use greenex\Excel\Concerns\Exportable;
+use greenex\Excel\Concerns\WithEvents;
+use greenex\Excel\Events\BeforeWriting;
+use greenex\Excel\Concerns\FromCollection;
+use greenex\Excel\Concerns\ShouldAutoSize;
+use greenex\Excel\Concerns\RegistersEventListeners;
 
 class SheetWith100Rows implements FromCollection, WithTitle, ShouldAutoSize, WithEvents
 {

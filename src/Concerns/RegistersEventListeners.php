@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace greenex\Excel\Concerns;
 
-use Maatwebsite\Excel\Events\AfterSheet;
-use Maatwebsite\Excel\Events\AfterImport;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Events\BeforeExport;
-use Maatwebsite\Excel\Events\BeforeImport;
-use Maatwebsite\Excel\Events\BeforeWriting;
+use greenex\Excel\Events\AfterSheet;
+use greenex\Excel\Events\AfterImport;
+use greenex\Excel\Events\BeforeSheet;
+use greenex\Excel\Events\BeforeExport;
+use greenex\Excel\Events\BeforeImport;
+use greenex\Excel\Events\BeforeWriting;
 
 trait RegistersEventListeners
 {

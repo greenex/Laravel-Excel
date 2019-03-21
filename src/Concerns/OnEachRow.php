@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace greenex\Excel\Concerns;
 
-use Maatwebsite\Excel\Row;
+use greenex\Excel\Row;
 
 interface OnEachRow
 {

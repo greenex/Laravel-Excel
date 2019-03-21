@@ -1,16 +1,16 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace greenex\Excel\Tests;
 
 use Illuminate\Support\Facades\Queue;
-use Maatwebsite\Excel\Jobs\ReadChunk;
+use greenex\Excel\Jobs\ReadChunk;
 use Illuminate\Queue\Events\JobProcessing;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Files\TemporaryFile;
+use greenex\Excel\Concerns\Importable;
+use greenex\Excel\Files\TemporaryFile;
 use Illuminate\Foundation\Bus\PendingDispatch;
-use Maatwebsite\Excel\Files\RemoteTemporaryFile;
-use Maatwebsite\Excel\Tests\Data\Stubs\QueuedImport;
-use Maatwebsite\Excel\Tests\Data\Stubs\AfterQueueImportJob;
+use greenex\Excel\Files\RemoteTemporaryFile;
+use greenex\Excel\Tests\Data\Stubs\QueuedImport;
+use greenex\Excel\Tests\Data\Stubs\AfterQueueImportJob;
 
 class QueuedImportTest extends TestCase
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace greenex\Excel\Tests;
 
-use Maatwebsite\Excel\Excel;
+use greenex\Excel\Excel;
 use Illuminate\Support\Facades\Queue;
 use Illuminate\Queue\Events\JobProcessing;
-use Maatwebsite\Excel\Files\TemporaryFile;
-use Maatwebsite\Excel\Jobs\AppendDataToSheet;
-use Maatwebsite\Excel\Files\RemoteTemporaryFile;
-use Maatwebsite\Excel\Tests\Data\Stubs\QueuedExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\ShouldQueueExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\AfterQueueExportJob;
-use Maatwebsite\Excel\Tests\Data\Stubs\EloquentCollectionWithMappingExport;
+use greenex\Excel\Files\TemporaryFile;
+use greenex\Excel\Jobs\AppendDataToSheet;
+use greenex\Excel\Files\RemoteTemporaryFile;
+use greenex\Excel\Tests\Data\Stubs\QueuedExport;
+use greenex\Excel\Tests\Data\Stubs\ShouldQueueExport;
+use greenex\Excel\Tests\Data\Stubs\AfterQueueExportJob;
+use greenex\Excel\Tests\Data\Stubs\EloquentCollectionWithMappingExport;
 
 class QueuedExportTest extends TestCase
 {

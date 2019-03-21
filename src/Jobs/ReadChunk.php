@@ -1,17 +1,17 @@
 <?php
 
-namespace Maatwebsite\Excel\Jobs;
+namespace greenex\Excel\Jobs;
 
-use Maatwebsite\Excel\Sheet;
+use greenex\Excel\Sheet;
 use Illuminate\Bus\Queueable;
 use PhpOffice\PhpSpreadsheet\Cell\Cell;
-use Maatwebsite\Excel\Files\TemporaryFile;
+use greenex\Excel\Files\TemporaryFile;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use PhpOffice\PhpSpreadsheet\Reader\IReader;
-use Maatwebsite\Excel\Filters\ChunkReadFilter;
-use Maatwebsite\Excel\Imports\HeadingRowExtractor;
-use Maatwebsite\Excel\Concerns\WithCustomValueBinder;
-use Maatwebsite\Excel\Transactions\TransactionHandler;
+use greenex\Excel\Filters\ChunkReadFilter;
+use greenex\Excel\Imports\HeadingRowExtractor;
+use greenex\Excel\Concerns\WithCustomValueBinder;
+use greenex\Excel\Transactions\TransactionHandler;
 
 class ReadChunk implements ShouldQueue
 {
@@ -68,7 +68,7 @@ class ReadChunk implements ShouldQueue
     /**
      * @param TransactionHandler $transaction
      *
-     * @throws \Maatwebsite\Excel\Exceptions\SheetNotFoundException
+     * @throws \greenex\Excel\Exceptions\SheetNotFoundException
      * @throws \PhpOffice\PhpSpreadsheet\Reader\Exception
      */
     public function handle(TransactionHandler $transaction)

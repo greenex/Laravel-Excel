@@ -1,18 +1,18 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace greenex\Excel;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Jobs\ReadChunk;
-use Maatwebsite\Excel\Jobs\QueueImport;
-use Maatwebsite\Excel\Concerns\WithLimit;
-use Maatwebsite\Excel\Files\TemporaryFile;
+use greenex\Excel\Jobs\ReadChunk;
+use greenex\Excel\Jobs\QueueImport;
+use greenex\Excel\Concerns\WithLimit;
+use greenex\Excel\Files\TemporaryFile;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use PhpOffice\PhpSpreadsheet\Reader\IReader;
-use Maatwebsite\Excel\Concerns\WithProgressBar;
-use Maatwebsite\Excel\Concerns\WithChunkReading;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
-use Maatwebsite\Excel\Imports\HeadingRowExtractor;
+use greenex\Excel\Concerns\WithProgressBar;
+use greenex\Excel\Concerns\WithChunkReading;
+use greenex\Excel\Concerns\WithMultipleSheets;
+use greenex\Excel\Imports\HeadingRowExtractor;
 
 class ChunkReader
 {

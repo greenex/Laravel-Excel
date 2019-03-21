@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
 use PHPUnit\Framework\Assert;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\Importable;
+use greenex\Excel\Tests\TestCase;
+use greenex\Excel\Concerns\ToArray;
+use greenex\Excel\Concerns\Importable;
 
 class ToArrayTest extends TestCase
 {

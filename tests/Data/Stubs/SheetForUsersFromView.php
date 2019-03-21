@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace greenex\Excel\Tests\Data\Stubs;
 
 use Illuminate\Support\Collection;
 use Illuminate\Contracts\View\View;
-use Maatwebsite\Excel\Concerns\FromView;
-use Maatwebsite\Excel\Concerns\Exportable;
+use greenex\Excel\Concerns\FromView;
+use greenex\Excel\Concerns\Exportable;
 
 class SheetForUsersFromView implements FromView
 {

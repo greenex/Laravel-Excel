@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace greenex\Excel\Events;
 
-use Maatwebsite\Excel\Sheet;
+use greenex\Excel\Sheet;
 
 class BeforeSheet extends Event
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
 use PHPUnit\Framework\Assert;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\ToCollection;
+use greenex\Excel\Tests\TestCase;
+use greenex\Excel\Concerns\Importable;
+use greenex\Excel\Concerns\ToCollection;
 
 class ToCollectionTest extends TestCase
 {

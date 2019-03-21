@@ -1,10 +1,10 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Mixins;
+namespace greenex\Excel\Tests\Mixins;
 
-use Maatwebsite\Excel\Excel;
+use greenex\Excel\Excel;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\TestCase;
+use greenex\Excel\Tests\TestCase;
 
 class StoreCollectionTest extends TestCase
 {

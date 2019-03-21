@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace greenex\Excel;
 
-use Maatwebsite\Excel\Events\Event;
-use Maatwebsite\Excel\Events\AfterSheet;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Events\BeforeExport;
-use Maatwebsite\Excel\Events\BeforeWriting;
+use greenex\Excel\Events\Event;
+use greenex\Excel\Events\AfterSheet;
+use greenex\Excel\Events\BeforeSheet;
+use greenex\Excel\Events\BeforeExport;
+use greenex\Excel\Events\BeforeWriting;
 
 trait RegistersCustomConcerns
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests;
+namespace greenex\Excel\Tests;
 
-use Maatwebsite\Excel\Excel;
+use greenex\Excel\Excel;
 
 class ExcelServiceProviderTest extends TestCase
 {

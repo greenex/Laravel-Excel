@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace greenex\Excel\Concerns;
 
-use Maatwebsite\Excel\Exporter;
+use greenex\Excel\Exporter;
 use Illuminate\Foundation\Bus\PendingDispatch;
-use Maatwebsite\Excel\Exceptions\NoFilenameGivenException;
-use Maatwebsite\Excel\Exceptions\NoFilePathGivenException;
+use greenex\Excel\Exceptions\NoFilenameGivenException;
+use greenex\Excel\Exceptions\NoFilePathGivenException;
 
 trait Exportable
 {

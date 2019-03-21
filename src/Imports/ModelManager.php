@@ -1,16 +1,16 @@
 <?php
 
-namespace Maatwebsite\Excel\Imports;
+namespace greenex\Excel\Imports;
 
 use Throwable;
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\SkipsOnError;
-use Maatwebsite\Excel\Concerns\WithValidation;
-use Maatwebsite\Excel\Validators\RowValidator;
-use Maatwebsite\Excel\Exceptions\RowSkippedException;
-use Maatwebsite\Excel\Validators\ValidationException;
+use greenex\Excel\Concerns\ToModel;
+use greenex\Excel\Concerns\SkipsOnError;
+use greenex\Excel\Concerns\WithValidation;
+use greenex\Excel\Validators\RowValidator;
+use greenex\Excel\Exceptions\RowSkippedException;
+use greenex\Excel\Validators\ValidationException;
 
 class ModelManager
 {

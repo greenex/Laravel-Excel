@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace greenex\Excel\Events;
 
-use Maatwebsite\Excel\Reader;
+use greenex\Excel\Reader;
 
 class BeforeImport extends Event
 {

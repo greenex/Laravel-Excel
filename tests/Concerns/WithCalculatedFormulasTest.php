@@ -1,14 +1,14 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
 use PHPUnit\Framework\Assert;
-use Maatwebsite\Excel\Tests\TestCase;
+use greenex\Excel\Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\WithCalculatedFormulas;
+use greenex\Excel\Concerns\ToArray;
+use greenex\Excel\Concerns\ToModel;
+use greenex\Excel\Concerns\Importable;
+use greenex\Excel\Concerns\WithCalculatedFormulas;
 
 class WithCalculatedFormulasTest extends TestCase
 {

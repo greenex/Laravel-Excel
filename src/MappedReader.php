@@ -1,14 +1,14 @@
 <?php
 
-namespace Maatwebsite\Excel;
+namespace greenex\Excel;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Concerns\ToArray;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\ToCollection;
-use Maatwebsite\Excel\Concerns\WithMappedCells;
+use greenex\Excel\Concerns\ToArray;
+use greenex\Excel\Concerns\ToModel;
+use greenex\Excel\Concerns\ToCollection;
+use greenex\Excel\Concerns\WithMappedCells;
 use PhpOffice\PhpSpreadsheet\Worksheet\Worksheet;
-use Maatwebsite\Excel\Concerns\WithCalculatedFormulas;
+use greenex\Excel\Concerns\WithCalculatedFormulas;
 
 class MappedReader
 {

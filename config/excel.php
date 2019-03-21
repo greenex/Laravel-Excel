@@ -1,6 +1,6 @@
 <?php
 
-use Maatwebsite\Excel\Excel;
+use greenex\Excel\Excel;
 
 return [
 
@@ -130,7 +130,7 @@ return [
         | you can implement your own default value binder.
         |
         */
-        'default' => Maatwebsite\Excel\DefaultValueBinder::class,
+        'default' => greenex\Excel\DefaultValueBinder::class,
     ],
 
     'transactions' => [

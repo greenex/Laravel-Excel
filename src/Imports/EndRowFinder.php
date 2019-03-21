@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Imports;
+namespace greenex\Excel\Imports;
 
-use Maatwebsite\Excel\Concerns\WithLimit;
+use greenex\Excel\Concerns\WithLimit;
 
 class EndRowFinder
 {

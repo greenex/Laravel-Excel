@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace greenex\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithMultipleSheets;
+use greenex\Excel\Concerns\Exportable;
+use greenex\Excel\Concerns\WithMultipleSheets;
 
 class QueuedExport implements WithMultipleSheets
 {

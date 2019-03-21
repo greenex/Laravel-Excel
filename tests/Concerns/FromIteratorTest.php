@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
 use Iterator;
 use ArrayIterator;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromIterator;
+use greenex\Excel\Tests\TestCase;
+use greenex\Excel\Concerns\Exportable;
+use greenex\Excel\Concerns\FromIterator;
 
 class FromIteratorTest extends TestCase
 {

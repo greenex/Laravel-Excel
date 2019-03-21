@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Validators;
+namespace greenex\Excel\Validators;
 
 use Illuminate\Support\Str;
 use Illuminate\Contracts\Validation\Factory;
-use Maatwebsite\Excel\Concerns\SkipsOnFailure;
-use Maatwebsite\Excel\Concerns\WithValidation;
-use Maatwebsite\Excel\Exceptions\RowSkippedException;
+use greenex\Excel\Concerns\SkipsOnFailure;
+use greenex\Excel\Concerns\WithValidation;
+use greenex\Excel\Exceptions\RowSkippedException;
 use Illuminate\Validation\ValidationException as IlluminateValidationException;
 
 class RowValidator

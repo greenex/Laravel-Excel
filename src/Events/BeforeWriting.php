@@ -1,8 +1,8 @@
 <?php
 
-namespace Maatwebsite\Excel\Events;
+namespace greenex\Excel\Events;
 
-use Maatwebsite\Excel\Writer;
+use greenex\Excel\Writer;
 
 class BeforeWriting extends Event
 {

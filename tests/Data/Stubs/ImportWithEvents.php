@@ -1,13 +1,13 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace greenex\Excel\Tests\Data\Stubs;
 
-use Maatwebsite\Excel\Events\AfterSheet;
-use Maatwebsite\Excel\Events\AfterImport;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Events\BeforeImport;
+use greenex\Excel\Events\AfterSheet;
+use greenex\Excel\Events\AfterImport;
+use greenex\Excel\Events\BeforeSheet;
+use greenex\Excel\Concerns\Importable;
+use greenex\Excel\Concerns\WithEvents;
+use greenex\Excel\Events\BeforeImport;
 
 class ImportWithEvents implements WithEvents
 {

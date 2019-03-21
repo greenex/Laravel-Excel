@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Row;
+use greenex\Excel\Row;
 use PHPUnit\Framework\Assert;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\OnEachRow;
-use Maatwebsite\Excel\Concerns\Importable;
+use greenex\Excel\Tests\TestCase;
+use greenex\Excel\Concerns\OnEachRow;
+use greenex\Excel\Concerns\Importable;
 
 class OnEachRowTest extends TestCase
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Tests\Data\Stubs\QueuedExport;
-use Maatwebsite\Excel\Tests\Data\Stubs\SheetWith100Rows;
+use greenex\Excel\Tests\TestCase;
+use greenex\Excel\Tests\Data\Stubs\QueuedExport;
+use greenex\Excel\Tests\Data\Stubs\SheetWith100Rows;
 
 class FromCollectionTest extends TestCase
 {

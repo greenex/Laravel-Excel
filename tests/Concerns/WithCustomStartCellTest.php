@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Excel;
+use greenex\Excel\Excel;
 use Illuminate\Support\Collection;
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\FromCollection;
-use Maatwebsite\Excel\Concerns\WithCustomStartCell;
+use greenex\Excel\Tests\TestCase;
+use greenex\Excel\Concerns\FromCollection;
+use greenex\Excel\Concerns\WithCustomStartCell;
 
 class WithCustomStartCellTest extends TestCase
 {

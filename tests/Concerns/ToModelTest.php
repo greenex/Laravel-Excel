@@ -1,15 +1,15 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
 use Faker\Factory;
 use Illuminate\Support\Facades\DB;
-use Maatwebsite\Excel\Tests\TestCase;
+use greenex\Excel\Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
+use greenex\Excel\Concerns\ToModel;
+use greenex\Excel\Concerns\Importable;
+use greenex\Excel\Tests\Data\Stubs\Database\User;
+use greenex\Excel\Tests\Data\Stubs\Database\Group;
 
 class ToModelTest extends TestCase
 {

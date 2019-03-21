@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\Group;
-use Maatwebsite\Excel\Tests\Data\Stubs\AfterQueueExportJob;
-use Maatwebsite\Excel\Tests\Data\Stubs\FromQueryWithCustomQuerySize;
+use greenex\Excel\Tests\TestCase;
+use greenex\Excel\Tests\Data\Stubs\Database\User;
+use greenex\Excel\Tests\Data\Stubs\Database\Group;
+use greenex\Excel\Tests\Data\Stubs\AfterQueueExportJob;
+use greenex\Excel\Tests\Data\Stubs\FromQueryWithCustomQuerySize;
 
 class WithCustomQuerySizeTest extends TestCase
 {

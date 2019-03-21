@@ -1,9 +1,9 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Tests\Data\Stubs\WithTitleExport;
+use greenex\Excel\Tests\TestCase;
+use greenex\Excel\Tests\Data\Stubs\WithTitleExport;
 
 class WithTitleTest extends TestCase
 {

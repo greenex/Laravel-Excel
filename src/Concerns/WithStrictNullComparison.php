@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Concerns;
+namespace greenex\Excel\Concerns;
 
 interface WithStrictNullComparison
 {

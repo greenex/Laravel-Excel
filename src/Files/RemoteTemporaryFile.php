@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Files;
+namespace greenex\Excel\Files;
 
 class RemoteTemporaryFile extends TemporaryFile
 {

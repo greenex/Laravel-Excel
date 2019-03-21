@@ -1,6 +1,6 @@
 <?php
 
-namespace Maatwebsite\Excel\Exceptions;
+namespace greenex\Excel\Exceptions;
 
 use Throwable;
 use InvalidArgumentException;

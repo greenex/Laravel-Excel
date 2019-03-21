@@ -1,14 +1,14 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Data\Stubs;
+namespace greenex\Excel\Tests\Data\Stubs;
 
 use Illuminate\Database\Query\Builder;
-use Maatwebsite\Excel\Concerns\FromQuery;
-use Maatwebsite\Excel\Events\BeforeSheet;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithEvents;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
+use greenex\Excel\Concerns\FromQuery;
+use greenex\Excel\Events\BeforeSheet;
+use greenex\Excel\Concerns\Exportable;
+use greenex\Excel\Concerns\WithEvents;
+use greenex\Excel\Concerns\WithMapping;
+use greenex\Excel\Tests\Data\Stubs\Database\User;
 
 class FromUsersQueryExportWithMapping implements FromQuery, WithMapping, WithEvents
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
-use Maatwebsite\Excel\Tests\TestCase;
-use Maatwebsite\Excel\Concerns\FromArray;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Tests\Data\Stubs\WithMappingExport;
+use greenex\Excel\Tests\TestCase;
+use greenex\Excel\Concerns\FromArray;
+use greenex\Excel\Concerns\Exportable;
+use greenex\Excel\Concerns\WithMapping;
+use greenex\Excel\Tests\Data\Stubs\WithMappingExport;
 
 class WithMappingTest extends TestCase
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Maatwebsite\Excel\Tests\Concerns;
+namespace greenex\Excel\Tests\Concerns;
 
 use Illuminate\Validation\Rule;
-use Maatwebsite\Excel\Tests\TestCase;
+use greenex\Excel\Tests\TestCase;
 use Illuminate\Database\Eloquent\Model;
-use Maatwebsite\Excel\Concerns\ToModel;
-use Maatwebsite\Excel\Concerns\Importable;
-use Maatwebsite\Excel\Concerns\WithHeadingRow;
-use Maatwebsite\Excel\Concerns\WithValidation;
-use Maatwebsite\Excel\Concerns\WithBatchInserts;
-use Maatwebsite\Excel\Tests\Data\Stubs\Database\User;
-use Maatwebsite\Excel\Validators\ValidationException;
+use greenex\Excel\Concerns\ToModel;
+use greenex\Excel\Concerns\Importable;
+use greenex\Excel\Concerns\WithHeadingRow;
+use greenex\Excel\Concerns\WithValidation;
+use greenex\Excel\Concerns\WithBatchInserts;
+use greenex\Excel\Tests\Data\Stubs\Database\User;
+use greenex\Excel\Validators\ValidationException;
 
 class WithValidationTest extends TestCase
 {
