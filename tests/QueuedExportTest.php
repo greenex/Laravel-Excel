@@ -44,7 +44,7 @@ class QueuedExportTest extends TestCase
      */
     public function can_queue_export_with_remote_temp_disk()
     {
-        config()->set('excel.temporary_files.remote_disk', 'test');
+        config()->set('excel2.temporary_files.remote_disk', 'test');
 
         // Delete the local temp file before each append job
         // to simulate using a shared remote disk, without

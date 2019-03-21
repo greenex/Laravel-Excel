@@ -113,7 +113,7 @@ class HeadingRowImportTest extends TestCase
             return 'custom2-' . $value;
         });
 
-        config()->set('excel.imports.heading_row.formatter', 'custom2');
+        config()->set('excel2.imports.heading_row.formatter', 'custom2');
 
         $import = new HeadingRowImport();
 

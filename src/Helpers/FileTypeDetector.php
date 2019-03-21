@@ -31,7 +31,7 @@ class FileTypeDetector
             throw new NoTypeDetectedException();
         }
 
-        return config('excel.extension_detector.' . strtolower($extension));
+        return config('excel2.extension_detector.' . strtolower($extension));
     }
 
     /**

@@ -77,7 +77,7 @@ class Sheet
     public function __construct(Worksheet $worksheet)
     {
         $this->worksheet            = $worksheet;
-        $this->chunkSize            = config('excel.exports.chunk_size', 100);
+        $this->chunkSize            = config('excel2.exports.chunk_size', 100);
         $this->temporaryFileFactory = app(TemporaryFileFactory::class);
     }
 

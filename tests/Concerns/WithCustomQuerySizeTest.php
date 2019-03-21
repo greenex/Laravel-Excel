@@ -25,7 +25,7 @@ class WithCustomQuerySizeTest extends TestCase
             $group->users()->attach(factory(User::class)->times(rand(1, 3))->create());
         });
 
-        config()->set('excel.exports.chunk_size', 2);
+        config()->set('excel2.exports.chunk_size', 2);
     }
 
     /**

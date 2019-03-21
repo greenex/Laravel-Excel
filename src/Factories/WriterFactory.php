@@ -38,7 +38,7 @@ class WriterFactory
         }
 
         if ($writer instanceof Csv) {
-            static::applyCsvSettings(config('excel.exports.csv', []));
+            static::applyCsvSettings(config('excel2.exports.csv', []));
 
             if ($export instanceof WithCustomCsvSettings) {
                 static::applyCsvSettings($export->getCsvSettings());
@@ -56,7 +56,7 @@ class WriterFactory
         $writer->setPreCalculateFormulas(
             $export instanceof WithPreCalculateFormulas
                 ? true
-                : config('excel.exports.pre_calculate_formulas', false)
+                : config('excel2.exports.pre_calculate_formulas', false)
         );
 
         return $writer;
