@@ -11,7 +11,7 @@ class ExcelServiceProviderTest extends TestCase
      */
     public function is_bound()
     {
-        $this->assertTrue($this->app->bound('excel'));
+        $this->assertTrue($this->app->bound('excel2'));
     }
 
     /**
@@ -20,6 +20,6 @@ class ExcelServiceProviderTest extends TestCase
     public function has_aliased()
     {
         $this->assertTrue($this->app->isAlias(Excel::class));
-        $this->assertEquals('excel', $this->app->getAlias(Excel::class));
+        $this->assertEquals('excel2', $this->app->getAlias(Excel::class));
     }
 }

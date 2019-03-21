@@ -23,7 +23,7 @@ class ExcelFakeTest extends TestCase
         ExcelFacade::fake();
 
         // Excel instance should be swapped to the fake now.
-        $this->assertInstanceOf(ExcelFake::class, $this->app->make('excel'));
+        $this->assertInstanceOf(ExcelFake::class, $this->app->make('excel2'));
     }
 
     /**
